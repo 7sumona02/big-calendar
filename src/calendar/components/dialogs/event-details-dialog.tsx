@@ -27,7 +27,7 @@ export function EventDetailsDialog({ event, children }: IProps) {
           <Dialog.Title>{event.title}</Dialog.Title>
         </Dialog.Header>
 
-        <Dialog.Body>
+        <Dialog.Body className="bg-gray-50/20">
           <div className="space-y-4">
             <div className="flex items-start gap-2">
               <User className="mt-1 size-4 shrink-0 text-t-secondary" />

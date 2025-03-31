@@ -20,7 +20,7 @@ export function CalendarHeader({ view, events }: IProps) {
   return (
     <div className="flex flex-col gap-4 border-b p-4 lg:flex-row lg:items-center lg:justify-between">
       <div className="flex items-center gap-3">
-        <TodayButton />
+        {/* <TodayButton /> */}
         <DateNavigator view={view} events={events} />
       </div>
 

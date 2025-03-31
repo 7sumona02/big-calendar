@@ -6,8 +6,8 @@ import { ToggleTheme } from "@/components/layout/change-theme";
 export function Header() {
   return (
     <header className="mx-auto flex h-[88px] w-full max-w-screen-2xl items-center justify-center">
-      <div className="my-3 flex h-14 w-full items-center justify-between px-8">
-        <div className="flex items-center gap-3.5">
+      <div className="my-3 flex h-14 w-full items-center justify-end px-8">
+        {/* <div className="flex items-center gap-3.5">
           <div className="flex size-12 items-center justify-center rounded-full border p-3">
             <Calendar className="size-6 text-t-secondary" />
           </div>
@@ -22,13 +22,13 @@ export function Header() {
               </Link>
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="hidden items-center gap-4 md:flex">
-          <Link href="https://github.com/lramos33/big-calendar" target="_blank" className="inline-flex gap-0.5 text-sm hover:underline">
+          {/* <Link href="https://github.com/lramos33/big-calendar" target="_blank" className="inline-flex gap-0.5 text-sm hover:underline">
             View on GitHub
             <ArrowUpRight size={14} className="text-t-tertiary" />
-          </Link>
+          </Link> */}
 
           <ToggleTheme />
         </div>
